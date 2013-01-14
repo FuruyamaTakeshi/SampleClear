@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ * @brief 詳細画面クラス
+ *
+ */
 @interface DetailViewController : UIViewController
 
 @property (strong, nonatomic) id detailItem;

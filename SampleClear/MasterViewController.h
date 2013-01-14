@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @class DetailViewController;
-
+/**
+ * @brief メイン画面クラス
+ *
+ */
 @interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
